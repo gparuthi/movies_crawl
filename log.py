@@ -3,7 +3,7 @@ from datetime import datetime
 class logger(object):
     def __init__(self, fname):
         self.start_time = datetime.now()
-        self.LOGFILE_PATH = './' + fname + '.' + str(datetime.now()) + '.log'
+        self.LOGFILE_PATH = 'logs/' + fname + '.' + str(datetime.now()) + '.log'
         self.LOGFILE = open(self.LOGFILE_PATH, 'w')
         print 'logfile initiated at : ' + self.LOGFILE_PATH
 
