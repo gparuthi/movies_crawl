@@ -2,14 +2,20 @@ import requests
 import ipdb
 import csv
 from json import dumps
+from log import logger
+from datetime import datetime
 
-ifile  = open('zips.csv', "rb")
-reader = csv.reader(ifile)
+ifile  = open('zips.csv', "rU")
+reader = csv.reader(ifile) 
+output_filep = './output_' + str(datetime.now()) + '.json' 
+logo = logger('log')
+
+logo.log('Output file initiated at: '+ output_filep)
 
 res = {}
 c = 1
 for row in reader:
-	print '[%d] %s' %(c,row)
+	logo.log( '[%d] %s' %(c,row))
 	zip = int(row[0])
 	c+=1
 	
@@ -20,14 +26,14 @@ for row in reader:
 
 	res[zip] = j
 
-# print res
+# logo.log( res
 
 for z in res:
 	for m in res[z]:
-		print m['title']
+		logo.log( m['title'])
 
 
-f = open('output.json', "wb")
+f = open(output_filep, "wb")
 f.write(dumps(res))
 f.close()
 
