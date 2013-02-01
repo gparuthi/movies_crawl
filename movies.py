@@ -26,8 +26,9 @@ for row in reader:
 		j = r.json()
 
 		res[zip] = j
-	except:
+	except Error as e:
 		logo.log('Error with zip code ' + str(zip))
+		logo.log('Error log: ' + str(e))
 
 # logo.log( res
 
