@@ -20,14 +20,15 @@ for row in reader:
 	c+=1
 	try:
 	# zip = 48103
-		r = requests.get('http://data.tmsapi.com/v1/movies/showings?startDate=2013-01-30&zip='+str(zip)+'&radius=5&api_key=pbsxwvjascgj72kd6rffxpxv')
+		r = requests.get('http://data.tmsapi.com/v1/movies/showings?startDate=2013-01-31&zip='+str(zip)+'&radius=5&api_key=pbsxwvjascgj72kd6rffxpxv')
 		r.status_code
 
 		j = r.json()
 
 		res[zip] = j
-	except Error as e:
+	except Exception as e:
 		logo.log('Error with zip code ' + str(zip))
+		logo.log('JSON: %s' %(r))
 		logo.log('Error log: ' + str(e))
 
 # logo.log( res
