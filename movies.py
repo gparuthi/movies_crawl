@@ -27,7 +27,7 @@ for row in reader:
 
 		res[zip] = j
 	except:
-		logo.log('Error with zip code ' + row)
+		logo.log('Error with zip code ' + str(zip))
 
 # logo.log( res
 
@@ -35,7 +35,7 @@ for z in res:
 	for m in res[z]:
 		logo.log( m['title'])
 
-
+logo.log('Done!... Dumping to file now')
 f = open(output_filep, "wb")
 f.write(dumps(res))
 f.close()
