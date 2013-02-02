@@ -1,0 +1,50 @@
+[2013-02-02 15:42:26.904850] Output file initiated at: logs/output_2013-02-02 15:42:26.904688.json
+[2013-02-02 15:42:26.905006] [1] ['35004']
+[2013-02-02 15:42:27.556136] Error with zip code 35004
+[2013-02-02 15:42:27.556176] JSON: <Response [400]>
+[2013-02-02 15:42:27.556205] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:27.556250] [2] ['35005']
+[2013-02-02 15:42:27.833477] Error with zip code 35005
+[2013-02-02 15:42:27.833548] JSON: <Response [400]>
+[2013-02-02 15:42:27.833603] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:27.833688] [3] ['35006']
+[2013-02-02 15:42:28.043483] Error with zip code 35006
+[2013-02-02 15:42:28.043533] JSON: <Response [400]>
+[2013-02-02 15:42:28.043559] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:28.043604] [4] ['35007']
+[2013-02-02 15:42:28.284755] Error with zip code 35007
+[2013-02-02 15:42:28.284799] JSON: <Response [400]>
+[2013-02-02 15:42:28.284831] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:28.284899] [5] ['35010']
+[2013-02-02 15:42:28.514088] Error with zip code 35010
+[2013-02-02 15:42:28.514131] JSON: <Response [400]>
+[2013-02-02 15:42:28.514161] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:28.514206] [6] ['35014']
+[2013-02-02 15:42:28.733805] Error with zip code 35014
+[2013-02-02 15:42:28.733883] JSON: <Response [400]>
+[2013-02-02 15:42:28.733942] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:28.734053] [7] ['35016']
+[2013-02-02 15:42:28.949154] Error with zip code 35016
+[2013-02-02 15:42:28.949211] JSON: <Response [400]>
+[2013-02-02 15:42:28.949255] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:28.949326] [8] ['35019']
+[2013-02-02 15:42:29.189966] Error with zip code 35019
+[2013-02-02 15:42:29.190002] JSON: <Response [400]>
+[2013-02-02 15:42:29.190029] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:29.190075] [9] ['35020']
+[2013-02-02 15:42:29.428576] Error with zip code 35020
+[2013-02-02 15:42:29.428611] JSON: <Response [400]>
+[2013-02-02 15:42:29.428638] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:29.428683] [10] ['35023']
+[2013-02-02 15:42:29.657060] Error with zip code 35023
+[2013-02-02 15:42:29.657116] JSON: <Response [400]>
+[2013-02-02 15:42:29.657161] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:29.657231] [11] ['35031']
+[2013-02-02 15:42:29.913323] Error with zip code 35031
+[2013-02-02 15:42:29.913395] JSON: <Response [400]>
+[2013-02-02 15:42:29.913454] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:29.913542] [12] ['35033']
+[2013-02-02 15:42:30.124825] Error with zip code 35033
+[2013-02-02 15:42:30.124878] JSON: <Response [400]>
+[2013-02-02 15:42:30.124905] Error log: argument of type 'Response' is not iterable
+[2013-02-02 15:42:30.124950] [13] ['35034']
