@@ -1,0 +1,19 @@
+[2013-02-09 22:42:12.500085] Output file initiated at: logs/output_2013-02-09 22:42:12.499887.csv
+[2013-02-09 22:42:12.500356] [1] ['35004']
+[2013-02-09 22:42:14.287793] Error with zip code 35004
+[2013-02-09 22:42:14.287838] JSON: <Response [200]>
+[2013-02-09 22:42:14.287867] Error log: list indices must be integers, not str
+[2013-02-09 22:42:14.287913] [2] ['35005']
+[2013-02-09 22:42:14.879750] Error with zip code 35005
+[2013-02-09 22:42:14.879794] JSON: <Response [200]>
+[2013-02-09 22:42:14.879828] Error log: list indices must be integers, not str
+[2013-02-09 22:42:14.879897] [3] ['35006']
+[2013-02-09 22:42:15.826885] Error with zip code 35006
+[2013-02-09 22:42:15.826956] JSON: <Response [200]>
+[2013-02-09 22:42:15.827016] Error log: list indices must be integers, not str
+[2013-02-09 22:42:15.827105] [4] ['35007']
+[2013-02-09 22:42:16.674404] Error with zip code 35007
+[2013-02-09 22:42:16.674441] JSON: <Response [200]>
+[2013-02-09 22:42:16.674466] Error log: list indices must be integers, not str
+[2013-02-09 22:42:16.674510] [5] ['35010']
+[2013-02-09 22:42:16.674541] Done!... Dumping to file now
